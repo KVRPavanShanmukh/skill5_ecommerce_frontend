@@ -33,7 +33,7 @@ const HomePage = () => {
     <div className="container">
       {/* Header */}
       <div className="header">
-        <h1>E-Commerce KLU APP</h1>
+        <h1>PAVAN SHANMUKH KAKARLA</h1>
         <div className="header-right">
           {isAuthenticated ? (
             <div className="profile-menu">
@@ -52,8 +52,8 @@ const HomePage = () => {
             </div>
           ) : (
             <>
-              <Link to="/login"><button>Login</button></Link>
-              <Link to="/signup"><button>Sign Up</button></Link>
+              <Link to="/login"><button>Login bro</button></Link>
+              <Link to="/signup"><button>Sign Up Bro</button></Link>
             </>
           )}
         </div>
